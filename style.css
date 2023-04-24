@@ -1,0 +1,61 @@
+body, html { 
+    background: url(pinkbackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+  h1 {
+    color: darkmagenta;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    background-color: whitesmoke;
+    border: solid hotpink 5px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .buffer {
+    height: 25px;
+  }
+
+  .btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+  }
+
+  .btn-secondary {
+    background-color: hotpink;
+    border-color: pink;
+  }
+
+  .btn-secondary:hover {
+    background-color: rgb(230, 67, 175);
+    border-color: rgb(230, 67, 175);
+    border-width: 4px;
+  }
+
+  .btn-xl {
+    padding: 1rem 2rem;
+  }
+
+  hr {
+    margin: 20px auto;
+    color: hotpink;
+    border: 3px solid hotpink;
+    max-width: 65px;
+    opacity: 1;  
+}
+
